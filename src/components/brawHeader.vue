@@ -6,18 +6,18 @@
         <div class="navlist">
             <nav>
             <ul>
-                <li>
-                    <router-link to="/">{{ title }}</router-link>
-                </li>
-                <li>
-                    <router-link to="/brawlers">BRAWLERS</router-link>
-                </li>
-                <li>
-                    <router-link to="/gamemodes">GAME MODES</router-link>
-                </li>
-                <li>
-                    <router-link to="/">PLAYER RECORDS</router-link>
-                </li>
+                    <li>
+                        <router-link to="/">{{ title }}</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/brawlers">BRAWLERS</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/gamemodes">GAME MODES</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/maps">GAME MAPS</router-link>
+                    </li>
             </ul>
         </nav>
         </div>
@@ -67,6 +67,18 @@ ul{
 
 li{
     list-style: none;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }
 
 </style>

@@ -5,7 +5,9 @@
       <div class="box" v-for="braws in brawData" :key="braws.id">
         <h3>{{ braws.name }}</h3>
       <div>
-        <img :src="braws.imageUrl2" class="img-shape">
+        <a target="_blank" :href="braws.link">
+          <img :src="braws.imageUrl2" class="img-shape">
+        </a>
       </div>
     </div>
     </div>

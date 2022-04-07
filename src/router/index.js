@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Brawlers from "../views/Brawlers.vue";
 import Home from "../views/Home.vue";
 import GameModes from "../views/GameModes.vue";
+import Maps from "../views/Maps.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/gamemodes",
     name: "GameModes",
     component: GameModes,
+  },
+  {
+    path: "/maps",
+    name: "Maps",
+    component: Maps,
   },
 ];
 

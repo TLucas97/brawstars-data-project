@@ -7,10 +7,14 @@
             </div>
             <div class="social-logos">
                 <div>
-                    <img :src="github" width="50">
+                    <a target="_blank" href="https://github.com/TLucas97">
+                        <img :src="github" width="50">
+                    </a>
                 </div>
                 <dir>
-                    <img :src="linkedin" width="50">
+                    <a target="_blank" href="https://www.linkedin.com/in/tarc%C3%ADsio-almeida-0a5577207/">
+                        <img :src="linkedin" width="50">
+                    </a>
                 </dir>
             </div>
         </div>
@@ -41,7 +45,7 @@ export default{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 720px;
+    height: 650px;
 
     display: flex;
     justify-content: space-between;

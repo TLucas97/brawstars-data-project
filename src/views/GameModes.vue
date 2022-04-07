@@ -7,7 +7,7 @@
                 <div style="margin-left: 1em;">
                 <h2>Game name: <span>{{ games.name }}</span> | Game mode: <span>{{ games.title }}</span></h2>
                 <h2>Objective: <span class="description-game">{{ games.description }}</span></h2>
-                <a target="_blank" :href="games.link">PLAY!</a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=pt_BR&gl=US">PLAY!</a>
                 </div>
             </div>
         </div>
