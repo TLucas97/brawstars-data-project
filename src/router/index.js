@@ -12,7 +12,7 @@ const routes = [
     component: Brawlers,
   },
   {
-    path: "/home",
+    path: "/",
     name: "Home",
     component: Home,
   },

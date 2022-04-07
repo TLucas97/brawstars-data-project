@@ -7,7 +7,7 @@
             <nav>
             <ul>
                 <li>
-                    <router-link to="/home">{{ title }}</router-link>
+                    <router-link to="/">{{ title }}</router-link>
                 </li>
                 <li>
                     <router-link to="/brawlers">BRAWLERS</router-link>
