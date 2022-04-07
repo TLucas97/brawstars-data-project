@@ -32,5 +32,9 @@ export default{
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 </style>
 

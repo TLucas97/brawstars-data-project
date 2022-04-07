@@ -13,7 +13,7 @@
                     <router-link to="/brawlers">BRAWLERS</router-link>
                 </li>
                 <li>
-                    <router-link to="/">GAME MODES</router-link>
+                    <router-link to="/gamemodes">GAME MODES</router-link>
                 </li>
                 <li>
                     <router-link to="/">PLAYER RECORDS</router-link>

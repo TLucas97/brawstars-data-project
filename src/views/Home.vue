@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="main">
         <div class="braw-banner">
             <div class="title">
                 <h1>BrawLegends</h1>
@@ -41,7 +41,7 @@ export default{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 720px;
 
     display: flex;
     justify-content: space-between;
